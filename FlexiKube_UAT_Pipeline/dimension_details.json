@@ -1,0 +1,123 @@
+{
+  "cENM1": {
+    "master":{
+      "node_count": 3,
+      "cpu": 6,
+      "memory": 12,
+      "volume": 30
+    },
+    "worker":{
+      "node_count": 18,
+      "cpu": 16,
+      "memory": 128,
+      "volume": 200
+    },
+    "director":{
+      "node_count": 1,
+      "cpu": 2,
+      "memory": 4,
+      "volume": 128
+    }
+  },
+  "cENM4": {
+    "master":{
+      "node_count": 3,
+      "cpu": 6,
+      "memory": 12,
+      "volume": 30
+    },
+    "worker":{
+      "node_count": 14,
+      "cpu": 16,
+      "memory": 90,
+      "volume": 100
+    },
+    "director":{
+      "node_count": 1,
+      "cpu": 2,
+      "memory": 4,
+      "volume": 128
+    }
+  },
+  "cENM4+EVNFM": {
+    "master":{
+      "node_count": 3,
+      "cpu": 6,
+      "memory": 12,
+      "volume": 30
+    },
+    "worker":{
+      "node_count": 16,
+      "cpu": 16,
+      "memory": 90,
+      "volume": 400
+    },
+    "director":{
+      "node_count": 1,
+      "cpu": 2,
+      "memory": 4,
+      "volume": 128
+    }
+  },
+  "cENM5_STS": {
+    "master":{
+      "node_count": 3,
+      "cpu": 4,
+      "memory": 16,
+      "volume": 32
+    },
+    "worker":{
+      "node_count": 9,
+      "cpu": 16,
+      "memory": 89,
+      "volume": 200
+    },
+    "director":{
+      "node_count": 1,
+      "cpu": 2,
+      "memory": 3,
+      "volume": 160
+    }
+  },
+  "cENM5": {
+    "master":{
+      "node_count": 3,
+      "cpu": 4,
+      "memory": 16,
+      "volume": 32
+    },
+    "worker":{
+      "node_count": 9,
+      "cpu": 16,
+      "memory": 89,
+      "volume": 190
+    },
+    "director":{
+      "node_count": 1,
+      "cpu": 2,
+      "memory": 3,
+      "volume": 128
+    }
+  },
+  "test": {
+    "master":{
+      "node_count": 3,
+      "cpu": 4,
+      "memory": 16,
+      "volume": 32
+    },
+    "worker":{
+      "node_count": 9,
+      "cpu": 16,
+      "memory": 89,
+      "volume": 200
+    },
+    "director":{
+      "node_count": 1,
+      "cpu": 2,
+      "memory": 3,
+      "volume": 160
+    }
+  }
+
+}

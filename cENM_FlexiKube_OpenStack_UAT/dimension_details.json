@@ -1,0 +1,509 @@
+{
+  "cENM1": {
+    "master":{
+      "node_count": 3,
+      "cpu": 6,
+      "memory": 12,
+      "volume": 56
+    },
+    "worker":{
+      "node_count": 18,
+      "cpu": 16,
+      "memory": 126,
+      "volume": 200
+    },
+    "director":{
+      "node_count": 1,
+      "cpu": 2,
+      "memory": 3,
+      "volume": 104
+    }
+  },
+  "cENM1_OpenStack_IBD": {
+    "master":{
+      "node_count": 3,
+      "cpu": 6,
+      "memory": 12,
+      "volume": 56
+    },
+    "worker":{
+      "node_count": 18,
+      "cpu": 16,
+      "memory": 126,
+      "volume": 200
+    },
+    "director":{
+      "node_count": 1,
+      "cpu": 2,
+      "memory": 3,
+      "volume": 104
+    }
+  },
+  "cENM1_OpenStack": {
+    "master":{
+      "node_count": 3,
+      "cpu": 6,
+      "memory": 12,
+      "volume": 72
+    },
+    "worker":{
+      "node_count": 18,
+      "cpu": 16,
+      "memory": 126,
+      "volume": 200
+    },
+    "nfs":{
+      "node_count": 1,
+      "cpu": 4,
+      "memory": 12,
+      "volume": 12,
+      "share_volume": 4500
+    }
+  },
+  "cENM4": {
+    "master":{
+      "node_count": 3,
+      "cpu": 6,
+      "memory": 12,
+      "volume": 32
+    },
+    "worker":{
+      "node_count": 14,
+      "cpu": 16,
+      "memory": 89,
+      "volume": 104
+    },
+    "director":{
+      "node_count": 1,
+      "cpu": 2,
+      "memory": 3,
+      "volume": 78
+    }
+  },
+  "cENM4_OpenStack_IBD": {
+    "master":{
+      "node_count": 3,
+      "cpu": 6,
+      "memory": 12,
+      "volume": 32
+    },
+    "worker":{
+      "node_count": 14,
+      "cpu": 16,
+      "memory": 89,
+      "volume": 104
+    },
+    "director":{
+      "node_count": 1,
+      "cpu": 2,
+      "memory": 3,
+      "volume": 78
+    }
+  },
+  "cENM4+EVNFM": {
+    "master":{
+      "node_count": 3,
+      "cpu": 6,
+      "memory": 12,
+      "volume": 30
+    },
+    "worker":{
+      "node_count": 16,
+      "cpu": 16,
+      "memory": 90,
+      "volume": 400
+    },
+    "director":{
+      "node_count": 1,
+      "cpu": 2,
+      "memory": 4,
+      "volume": 128
+    }
+  },
+  "cENM4+EVNFM_FlexiKube": {
+    "master":{
+      "node_count": 3,
+      "cpu": 4,
+      "memory": 16,
+      "volume": 32
+    },
+    "worker":{
+      "node_count": 16,
+      "cpu": 16,
+      "memory": 89,
+      "volume": 400
+    },
+    "director":{
+      "node_count": 1,
+      "cpu": 2,
+      "memory": 3,
+      "volume": 128
+    }
+  },
+  "cENM4+EVNFM_OpenStack_IBD": {
+    "master":{
+      "node_count": 3,
+      "cpu": 6,
+      "memory": 12,
+      "volume": 30
+    },
+    "worker":{
+      "node_count": 16,
+      "cpu": 16,
+      "memory": 90,
+      "volume": 400
+    },
+    "director":{
+      "node_count": 1,
+      "cpu": 2,
+      "memory": 4,
+      "volume": 128
+    }
+  },
+  "cENM5+EVNFM_OpenStack_IBD": {
+    "master":{
+      "node_count": 3,
+      "cpu": 6,
+      "memory": 12,
+      "volume": 56
+    },
+    "worker":{
+      "node_count": 11,
+      "cpu": 16,
+      "memory": 89,
+      "volume": 400
+    },
+    "director":{
+      "node_count": 1,
+      "cpu": 2,
+      "memory": 3,
+      "volume": 80
+    }
+  },
+  "cENM4_FlexiKube": {
+    "master":{
+      "node_count": 3,
+      "cpu": 4,
+      "memory": 16,
+      "volume": 32
+    },
+    "worker":{
+      "node_count": 14,
+      "cpu": 16,
+      "memory": 89,
+      "volume": 100
+    },
+    "director":{
+      "node_count": 1,
+      "cpu": 2,
+      "memory": 3,
+      "volume": 128
+    }
+  },
+  "cENM5_STS": {
+    "master":{
+      "node_count": 3,
+      "cpu": 4,
+      "memory": 16,
+      "volume": 32
+    },
+    "worker":{
+      "node_count": 9,
+      "cpu": 16,
+      "memory": 89,
+      "volume": 200
+    },
+    "director":{
+      "node_count": 1,
+      "cpu": 2,
+      "memory": 3,
+      "volume": 160
+    }
+  },
+  "cENM5_STS_FlexiKube": {
+    "master":{
+      "node_count": 3,
+      "cpu": 4,
+      "memory": 16,
+      "volume": 32
+    },
+    "worker":{
+      "node_count": 9,
+      "cpu": 16,
+      "memory": 89,
+      "volume": 200
+    },
+    "director":{
+      "node_count": 1,
+      "cpu": 2,
+      "memory": 3,
+      "volume": 160
+    }
+  },
+  "cENM5": {
+    "master":{
+      "node_count": 3,
+      "cpu": 6,
+      "memory": 12,
+      "volume": 56
+    },
+    "worker":{
+      "node_count": 9,
+      "cpu": 16,
+      "memory": 89,
+      "volume": 190
+    },
+    "director":{
+      "node_count": 1,
+      "cpu": 2,
+      "memory": 3,
+      "volume": 78
+    }
+  },
+  "cENM5_OpenStack_IBD": {
+    "master":{
+      "node_count": 3,
+      "cpu": 6,
+      "memory": 12,
+      "volume": 56
+    },
+    "worker":{
+      "node_count": 9,
+      "cpu": 16,
+      "memory": 89,
+      "volume": 192
+    },
+    "director":{
+      "node_count": 1,
+      "cpu": 2,
+      "memory": 3,
+      "volume": 80
+    }
+  },
+  "cENM5_FlexiKube": {
+    "master":{
+      "node_count": 3,
+      "cpu": 4,
+      "memory": 16,
+      "volume": 32
+    },
+    "worker":{
+      "node_count": 6,
+      "cpu": 22,
+      "memory": 114,
+      "volume": 60
+    },
+    "director":{
+      "node_count": 1,
+      "cpu": 2,
+      "memory": 3,
+      "volume": 128
+    }
+  },
+  "cENM5_OpenStack": {
+    "master":{
+      "node_count": 3,
+      "cpu": 6,
+      "memory": 12,
+      "volume": 72
+    },
+    "worker":{
+      "node_count": 9,
+      "cpu": 16,
+      "memory": 89,
+      "volume": 192
+    },
+    "nfs":{
+      "node_count": 1,
+      "cpu": 4,
+      "memory": 12,
+      "volume": 12,
+      "share_volume": 520
+    }
+  },
+  "cENM5+EVNFM_OpenStack": {
+    "master":{
+      "node_count": 3,
+      "cpu": 6,
+      "memory": 12,
+      "volume": 72
+    },
+    "worker":{
+      "node_count": 11,
+      "cpu": 16,
+      "memory": 89,
+      "volume": 400
+    },
+    "nfs":{
+      "node_count": 1,
+      "cpu": 4,
+      "memory": 12,
+      "volume": 12,
+      "share_volume": 520
+    }
+  },
+  "cENM3_OpenStack_IBD": {
+    "master":{
+      "node_count": 3,
+      "cpu": 6,
+      "memory": 12,
+      "volume": 45
+    },
+    "worker":{
+      "node_count": 20,
+      "cpu": 16,
+      "memory": 128,
+      "volume": 400
+    },
+    "nfs":{
+      "node_count": 1,
+      "cpu": 4,
+      "memory": 12,
+      "volume": 0,
+      "share_volume": 4500
+    }
+  },
+  "cENM3_OpenStack": {
+    "master":{
+      "node_count": 3,
+      "cpu": 6,
+      "memory": 12,
+      "volume": 45
+    },
+    "worker":{
+      "node_count": 20,
+      "cpu": 16,
+      "memory": 128,
+      "volume": 400
+    },
+    "nfs":{
+      "node_count": 1,
+      "cpu": 4,
+      "memory": 12,
+      "volume": 0,
+      "share_volume": 4500
+    }
+  },
+  "cENM3+EVNFM_OpenStack": {
+    "master":{
+      "node_count": 3,
+      "cpu": 6,
+      "memory": 12,
+      "volume": 65
+    },
+    "worker":{
+      "node_count": 21,
+      "cpu": 16,
+      "memory": 128,
+      "volume": 400
+    },
+    "nfs":{
+      "node_count": 1,
+      "cpu": 4,
+      "memory": 12,
+      "volume": 0,
+      "share_volume": 4500
+    }
+  },
+  "cENM3+EVNFM_OpenStack_IBD": {
+    "master":{
+      "node_count": 3,
+      "cpu": 6,
+      "memory": 12,
+      "volume": 30
+    },
+    "worker":{
+      "node_count": 20,
+      "cpu": 16,
+      "memory": 128,
+      "volume": 400
+    },
+    "nfs":{
+      "node_count": 1,
+      "cpu": 4,
+      "memory": 12,
+      "volume": 0,
+      "share_volume": 4500
+    }
+  },
+  "cENM10-B_OpenStack_IBD": {
+    "master":{
+      "node_count": 3,
+      "cpu": 4,
+      "memory": 6,
+      "volume": 50
+    },
+    "worker":{
+      "node_count": 6,
+      "cpu": 16,
+      "memory": 21,
+      "volume": 60
+    },
+    "director":{
+      "node_count": 1,
+      "cpu": 2,
+      "memory": 4,
+      "volume": 60
+    }
+  },
+  "RCD-cENM5-FlexiKube_FlexiKube": {
+    "master":{
+      "node_count": 3,
+      "cpu": 4,
+      "memory": 16,
+      "volume": 32
+    },
+    "worker":{
+      "node_count": 9,
+      "cpu": 16,
+      "memory": 79,
+      "volume": 125
+    },
+    "director":{
+      "node_count": 1,
+      "cpu": 2,
+      "memory": 4,
+      "volume": 128
+    },
+  "cENM10-B_OpenStack": {
+    "master":{
+      "node_count": 3,
+      "cpu": 4,
+      "memory": 6,
+      "volume": 65
+    },
+    "worker":{
+      "node_count": 6,
+      "cpu": 16,
+      "memory": 21,
+      "volume": 60
+    },
+    "nfs":{
+      "node_count": 1,
+      "cpu": 4,
+      "memory": 12,
+      "volume": 0,
+      "share_volume": 55
+    },
+    "RCD-cENM5-FlexiKube_FlexiKube": {
+      "master":{
+        "node_count": 3,
+        "cpu": 4,
+        "memory": 16,
+        "volume": 32
+      },
+      "worker":{
+        "node_count": 9,
+        "cpu": 16,
+        "memory": 79,
+        "volume": 125
+      },
+      "director":{
+        "node_count": 1,
+        "cpu": 2,
+        "memory": 4,
+        "volume": 128
+      }
+    }
+  }
+}
